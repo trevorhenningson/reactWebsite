@@ -5,7 +5,7 @@ const aboutMe = {
       information: "Pending"
     },
     personalLife: {
-      information: "Enjoys hiking, reading sci-fi novels, and experimenting with IoT projects."
+      information: "Pending"
     }
   };
   
