@@ -1,17 +1,31 @@
 const workExperience = [
     {
-      company: "TechCorp Inc.",
-      title: "Software Engineer",
-      dates: "Jan 2021 - Present",
-      logo: "path/to/techcorp_logo.png",
-      content: "Developing scalable backend systems and APIs using Node.js and Python. Led a migration project to cloud infrastructure."
+      company: "OPEX Corporation",
+      title: "Member Engineering Staff",
+      dates: "May 2021 - Present",
+      logo: "img/work/logo_OPEX.png",
+      content: "Pending"
     },
     {
-      company: "Innovate Solutions",
-      title: "Junior Developer",
-      dates: "Aug 2019 - Dec 2020",
-      logo: "path/to/innovate_logo.png",
-      content: "Worked on web application development using React and Django. Contributed to improving application performance by 20%."
+      company: "Coca-Cola",
+      title: "Fluidics Engineer",
+      dates: "February 2021 - May 2021",
+      logo: "img/work/logo_CocaCola.png",
+      content: "Pending"
+    },
+    {
+      company: "Seatrec",
+      title: "Project Engineer",
+      dates: "September 2020 - February 2021",
+      logo: "img/work/logo_Seatrec.png",
+      content: "Pending"
+    },
+    {
+      company: "SLB (Schlumberger)",
+      title: "Manufacturing Engineer",
+      dates: "July 2018 - July 2020",
+      logo: "img/work/logo_SLB.png",
+      content: "Pending"
     }
   ];
   
