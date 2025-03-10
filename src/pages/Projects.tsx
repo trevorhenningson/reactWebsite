@@ -11,6 +11,7 @@ import { Nav } from "react-bootstrap";
 interface ProjectCardsProps {
   project: Project;
   index: number;
+  key: number;
 }
 
 function ProjectCards({ project, index }: ProjectCardsProps) {
@@ -30,7 +31,7 @@ function Projects() {
   return (
     <CardGroup>
       {projects.map((project, index) => (
-        <ProjectCards project={project} index={index} />
+        <ProjectCards project={project} index={index} key={index} />
       ))}
     </CardGroup>
   );
