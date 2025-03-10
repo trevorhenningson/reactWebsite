@@ -1,7 +1,6 @@
 function Landing() {
   return (
     <body>
-      <div id="my-header"></div>
       <main>
         <h1>Welcome to My Portfolio</h1>
         <p>
@@ -17,7 +16,6 @@ function Landing() {
 
         <img src="./img/headshot.png" alt="Trevor Henningson" width={400} />
       </main>
-      <div id="footer"></div>
     </body>
   );
 }

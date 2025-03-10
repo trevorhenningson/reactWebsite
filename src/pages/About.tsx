@@ -35,7 +35,7 @@ function About() {
           <br />
 
           <img
-            src="./img/edu/logo_Princeton.png"
+            src="img/edu/logo_Princeton.png"
             alt="Princeton Logo"
             width={100}
           />
