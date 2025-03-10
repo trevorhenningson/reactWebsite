@@ -2,7 +2,7 @@
   "name": "react-app",
   "private": true,
   "version": "0.1.0",
-  "homepage": "https://trevorhenningson.github.io",
+  "homepage": "https://trevorhenningson.github.io/reactWebsite",
   "type": "module",
   "scripts": {
     "dev": "vite",
