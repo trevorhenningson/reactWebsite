@@ -5,9 +5,15 @@ import projects from "../data/projects";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import CardGroup from "react-bootstrap/CardGroup";
+import { Project } from "../data/projects";
 
-function ProjectCards() {
-  return projects.map((project, index) => (
+interface ProjectCardsProps {
+  project: Project;
+  index: number;
+}
+
+function ProjectCards({ project, index }: ProjectCardsProps) {
+  return (
     <Card style={{ width: "18rem" }}>
       <Card.Img variant="top" src={project.images[0]} />
       <Card.Body>
@@ -18,13 +24,15 @@ function ProjectCards() {
         </Button>
       </Card.Body>
     </Card>
-  ));
+  );
 }
 
 function Projects() {
   return (
     <CardGroup>
-      <ProjectCards />
+      {projects.map((project, index) => (
+        <ProjectCards project={project} index={index} />
+      ))}
     </CardGroup>
   );
 }

@@ -16,7 +16,7 @@ export interface Project {
 const projects: Project[] = [
   {
       title: "Stock Market Lightsaber",
-      content: "As a fan of Star Wars with an interest in the current market performance of various stocks, I created a visual indicator of the current performance of my stock portfolio. Using the free version of the Python API from <a href = 'https://finnhub.io/'> Finnhub</a>, I wrote a program to continuously look up the value of a portfolio (stored as a JSON file). Based on whether the current portfolio value is greater than the portfolio value at close of the previous day, I determine whether my day value has increased (green) or decreased (red). If I'm having internet connectivity problems, or if there is a different error, I set the color to blue to indicate no current results.",
+      content: "As a fan of Star Wars with an interest in the current market performance of various stocks, I created a visual indicator of the current performance of my stock portfolio. Using the free version of the Python API from Finnhub, I wrote a program to continuously look up the value of a portfolio (stored as a JSON file). Based on whether the current portfolio value is greater than the portfolio value at close of the previous day, I determine whether my day value has increased (green) or decreased (red). If I'm having internet connectivity problems, or if there is a different error, I set the color to blue to indicate no current results.",
       teaser: "Green Means Good",
       images: ["/img/lightsaber/blue.png", "/img/lightsaber/yellow.png", "/img/lightsaber/red.png", "/img/lightsaber/testing.png"], 
       imageDesc: ["Lightsaber Blue", "Lightsaber Yellow", "Lightsaber Red", "Test Setup"]
