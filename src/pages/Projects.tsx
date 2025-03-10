@@ -6,6 +6,7 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import CardGroup from "react-bootstrap/CardGroup";
 import { Project } from "../data/projects";
+import { Nav } from "react-bootstrap";
 
 interface ProjectCardsProps {
   project: Project;
@@ -19,9 +20,7 @@ function ProjectCards({ project, index }: ProjectCardsProps) {
       <Card.Body>
         <Card.Title>{project.title}</Card.Title>
         <Card.Text>{project.teaser}</Card.Text>
-        <Button href={`/projects/${index}`} variant="primary">
-          See More
-        </Button>
+        <Link to={`/projects/${index}`}>See More</Link>
       </Card.Body>
     </Card>
   );

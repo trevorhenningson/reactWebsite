@@ -1,4 +1,4 @@
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 import CustomHeader from "./components/CustomHeader";
 import About from "./pages/About";
