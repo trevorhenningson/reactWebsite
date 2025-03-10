@@ -7,7 +7,7 @@ function About() {
         <section>
           <h2> Education </h2>
           <img
-            src="img/edu/logo_GeorgiaTech.png"
+            src="./img/edu/logo_GeorgiaTech.png"
             alt="Georgia Tech Logo"
             width={100}
           />
@@ -35,7 +35,7 @@ function About() {
           <br />
 
           <img
-            src="img/edu/logo_Princeton.png"
+            src="./img/edu/logo_Princeton.png"
             alt="Princeton Logo"
             width={100}
           />

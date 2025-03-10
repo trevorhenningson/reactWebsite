@@ -15,7 +15,7 @@ function Landing() {
           website to be in React, so check back soon for some updates in design{" "}
         </p>
 
-        <img src="img/headshot.png" alt="Trevor Henningson" width={400} />
+        <img src="./img/headshot.png" alt="Trevor Henningson" width={400} />
       </main>
       <div id="footer"></div>
     </body>

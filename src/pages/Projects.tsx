@@ -37,30 +37,4 @@ function Projects() {
   );
 }
 
-// return (
-//   <div className="container mx-auto px-4 py-8">
-//     <h1 className="text-2xl font-bold text-center mb-6">My Projects</h1>
-//     <div className="grid sm: grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-//       {projects.map((project, index) => (
-//         <Link
-//           key={index}
-//           to={`/projects/${index}`}
-//           className="block bg-white rounded-lg shadow-md hover:shadow-lg transition p-3"
-//         >
-//           {project.images.length > 0 && (
-//             <img
-//               src={project.images[0]}
-//               alt={project.title}
-//               className="w-full h-32 object-cover rounded-md"
-//             />
-//           )}
-//           <h2 className="text-sm font-semibold mt-2 text-center">
-//             {project.title}
-//           </h2>
-//         </Link>
-//       ))}
-//     </div>
-//   </div>
-// );
-
 export default Projects;

@@ -12,7 +12,7 @@ function Work() {
               (May 2021 - Now){" "}
             </h2>
             <img
-              src="img/work/logo_OPEX.png"
+              src="./img/work/logo_OPEX.png"
               alt="OPEX Corporation Logo"
               height={100}
             />
@@ -47,7 +47,7 @@ function Work() {
           <div>
             <h2> Coca-Cola: Fluidics Engineer (February 2021 - May 2021) </h2>
             <img
-              src="img/work/logo_CocaCola.png"
+              src="./img/work/logo_CocaCola.png"
               alt="Coca-Cola Logo"
               height={100}
             />
@@ -80,7 +80,7 @@ function Work() {
               Seatrec: Project Engineer (September 2020 - February 2021){" "}
             </h2>
             <img
-              src="img/work/logo_Seatrec.png"
+              src="./img/work/logo_Seatrec.png"
               alt="Seatrec Logo"
               height={100}
             />
@@ -110,7 +110,7 @@ function Work() {
               SLB (Schlumberger): Manufacturing Engineer (July 2018 - July 2020)
             </h2>
             <img
-              src="img/work/logo_SLB.png"
+              src="./img/work/logo_SLB.png"
               alt="SLB (Schlumberger) Logo"
               width={200}
               height={100}
