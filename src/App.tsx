@@ -13,11 +13,11 @@ function App() {
     <div>
       <CustomHeader />
       <Routes>
-        <Route path="/reactWebsite" element={<Landing />} />
-        <Route path="/reactWebsite/about" element={<About />} />
-        <Route path="/reactWebsite/projects" element={<Projects />} />
-        <Route path="/reactWebsite/projects/:id" element={<ProjectDetail />} />
-        <Route path="/reactWebsite/work" element={<Work />} />
+        <Route path="/" element={<Landing />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/projects/:id" element={<ProjectDetail />} />
+        <Route path="/work" element={<Work />} />
       </Routes>
     </div>
   );
