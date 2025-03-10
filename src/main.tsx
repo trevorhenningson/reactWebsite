@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import { HashRouter } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
-  <HashRouter>
+  <HashRouter basename="/reactWebsite">
     <App />
   </HashRouter>
 );
